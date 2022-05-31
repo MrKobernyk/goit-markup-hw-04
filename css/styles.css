@@ -184,6 +184,7 @@ nav {
 .logo-footer {
   display: block;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .adress,
@@ -488,12 +489,11 @@ nav {
 
 .clients-list {
   display: flex;
+
 }
 
 .clients-link {
   display: block;
-  padding-top: 16px;
-  text-align: center;
   color: #afb1b8;
   width: 170px;
   height: 92px;
@@ -513,6 +513,12 @@ nav {
 
 .clients-list > li:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-frame a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* =============================== PORTFOLIO ===============================  */
